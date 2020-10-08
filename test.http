@@ -1,0 +1,20 @@
+POST http://localhost:3000/envios
+Content-Type: application/json
+
+{
+    "destino": "NQN",
+    "email": "cliente78@gmail.com"
+}
+
+
+###
+GET http://localhost:3000/envios/pendientes
+
+
+###
+PUT http://localhost:3000/envios/2S9-luJGm/entregado
+Content-Type: application/json
+
+{    
+    "fechaAlta": "2020-09-27T01:54:38.334Z"
+}
